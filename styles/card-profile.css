@@ -1,0 +1,104 @@
+body {
+  font-family: "Noto Sans";
+  color: #5e6282;
+}
+
+
+.card {
+  height: 457px;
+  width: 315px;
+  border: none;
+  border-radius: 24px;
+
+  position: relative;
+  display: block;
+
+  box-shadow: 0px 15.85px 26.3px #e0e0e0;
+
+  padding: 0;
+  margin: 0 23.5px;
+}
+.profile-img {
+  border-radius: 24px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.discount {
+  background-color: #ffffff99;
+
+  height: 42px;
+  width: 115px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  display: none;
+}
+
+
+.info-div {
+  background-color: white;
+  width: 100%;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+
+  position: absolute;
+  bottom: 0;
+  padding: 27px 0px 40px;
+  margin: 0;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.country {
+  border: none;
+  background-color: transparent;
+  color: #5e6282;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.price {
+  border: none;
+  background-color: transparent;
+  color: #5e6282;
+  font-size: 18px;
+  font-weight: medium;
+  margin: 0;
+}
+
+.bottom-div {
+  display: flex;
+  justify-content: left;
+  object-fit: contain;
+  align-items: center;
+  margin-top: 18px;
+  padding: 0 20px;
+}
+.bottom-div img {
+  height: 16.25px;
+  width: 16.25px;
+  margin-right: 16.9px;
+}
+.days {
+  border: none;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}

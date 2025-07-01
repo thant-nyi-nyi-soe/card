@@ -1,0 +1,30 @@
+
+
+.template {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.welcome-title-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 249px;
+  padding-bottom: 60px;
+}
+
+.welcome-title {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: #14183E;
+  font-family: "Noto Serif";
+}
+
+.card-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
