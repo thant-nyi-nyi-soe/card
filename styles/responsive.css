@@ -18,4 +18,7 @@
     .card-div {
         flex-direction: column;
     }
+    .template {
+      padding-top: 43px;
+    }
 }

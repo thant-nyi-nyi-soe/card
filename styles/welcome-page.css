@@ -1,6 +1,9 @@
 
 
+
 .template {
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +25,7 @@
   font-family: "Noto Serif";
 }
 
-.card-div {
+.card-display {
   display: flex;
   align-items: center;
   justify-content: center;
