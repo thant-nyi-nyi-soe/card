@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 
 .welcome-title-div {
   display: flex;
   justify-content: center;
-  padding-top: 249px;
   padding-bottom: 60px;
 }
 
