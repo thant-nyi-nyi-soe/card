@@ -20,4 +20,9 @@
   .card {
     margin: 22.5px 0px;
   }
+  
+  .container-2 {
+    max-width: 315px;
+    grid-template-columns: 1fr;
+  }
 }

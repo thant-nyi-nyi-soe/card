@@ -1,38 +1,38 @@
 
 html, body {
+  font-family: "Noto Sans";
+  color: #5e6282;
   height: 100%;
 }
-.background {
-  min-height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.content-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;;
-  align-items: center;
-}
-
-
-.welcome-title-div {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 60px;
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .welcome-title {
-  margin: 0;
-  font-size: 50px;
-  font-weight: bold;
   color: #14183E;
   font-family: "Noto Serif";
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 60px;
 }
 
 .card-display {
   display: flex;
+  gap: 48px;
   align-items: center;
   justify-content: center;
+}
+
+.container-2 {
+  max-width: 1080px;
+  padding: 48px 20px 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
 }
 
